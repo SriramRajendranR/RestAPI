@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Master suite 1" time="17" tests="3" failures="0" errors="0">
+    <testsuite name="Master suite 1" tests="3" failures="0" errors="0" time="17" timestamp="2019-10-06 21:40:27" hostname="Sri - DESKTOP-9B3G1M9" id="Test Suites/master suite/Master suite 1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Sri\\Katalon Studio\\APIAutomationTesting\\Reports\\20191006_214014\\master suite\\Master suite 1\\20191006_214014"/>
+            <property name="logFiles" value="C:\\Users\\Sri\\Katalon Studio\\APIAutomationTesting\\Reports\\20191006_214014\\master suite\\Master suite 1\\20191006_214014\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Sri - DESKTOP-9B3G1M9"/>
+            <property name="hostAddress" value="192.168.43.249"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/List and create users/List users" classname="Test Cases/List and create users/List users" status="PASSED">
+            <system-out>2019-10-06 21:40:28 - [TEST_CASE][PASSED] - Test Cases/List and create users/List users: Test Cases/List and create users/List users&#xD;
+&#xD;
+2019-10-06 21:40:30 - [TEST_STEP][PASSED] - listusers = sendRequest(findTestObject("reqres/List all users")): Send request successfully&#xD;
+&#xD;
+2019-10-06 21:40:38 - [MESSAGE][INFO] - HAR: C:\Users\Sri\Katalon Studio\APIAutomationTesting\Reports\20191006_214014\master suite\Master suite 1\20191006_214014\requests\main\0.har&#xD;
+&#xD;
+2019-10-06 21:40:38 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-06 21:40:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(listusers, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-10-06 21:40:38 - [MESSAGE][PASSED] - Verify response status code successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/List and create users/Create Users" classname="Test Cases/List and create users/Create Users" status="PASSED">
+            <system-out>2019-10-06 21:40:38 - [TEST_CASE][PASSED] - Test Cases/List and create users/Create Users: Test Cases/List and create users/Create Users&#xD;
+&#xD;
+2019-10-06 21:40:40 - [TEST_STEP][PASSED] - createuser = sendRequest(findTestObject("reqres/Create new User")): Send request successfully&#xD;
+&#xD;
+2019-10-06 21:40:41 - [MESSAGE][INFO] - HAR: C:\Users\Sri\Katalon Studio\APIAutomationTesting\Reports\20191006_214014\master suite\Master suite 1\20191006_214014\requests\main\1.har&#xD;
+&#xD;
+2019-10-06 21:40:41 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-06 21:40:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(createuser, 201): Verify response status code successfully&#xD;
+&#xD;
+2019-10-06 21:40:41 - [MESSAGE][PASSED] - Verify response status code successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Imgur/Imgur with header" classname="Test Cases/Imgur/Imgur with header" status="PASSED">
+            <system-out>2019-10-06 21:40:41 - [TEST_CASE][PASSED] - Test Cases/Imgur/Imgur with header: Test Cases/Imgur/Imgur with header&#xD;
+&#xD;
+2019-10-06 21:40:42 - [TEST_STEP][PASSED] - imgur = sendRequest(findTestObject("reqres/Imgur with http header")): Send request successfully&#xD;
+&#xD;
+2019-10-06 21:40:44 - [MESSAGE][INFO] - HAR: C:\Users\Sri\Katalon Studio\APIAutomationTesting\Reports\20191006_214014\master suite\Master suite 1\20191006_214014\requests\main\2.har&#xD;
+&#xD;
+2019-10-06 21:40:44 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-06 21:40:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(imgur, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-10-06 21:40:44 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-10-06 21:40:44 - [TEST_STEP][PASSED] - println("TEST PASSED"): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-06 21:40:27 - [TEST_SUITE][INCOMPLETE] - Master suite 1: null</system-out>
+        <system-err>2019-10-06 21:40:27 - [TEST_SUITE][INCOMPLETE] - Master suite 1: null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2019-10-06 21:13:41,2019-10-06 21:13:50,9.265s,INCOMPLETE
+,,,,,,,
+Test Cases/List and create users/Create Users,,,,2019-10-06 21:13:42,2019-10-06 21:13:49,7.513s,PASSED
+"createuser = sendRequest(findTestObject(""reqres/Create new User""))",,,,2019-10-06 21:13:43,2019-10-06 21:13:49,6.870s,PASSED
+"verifyResponseStatusCode(createuser, 201)",,,,2019-10-06 21:13:49,2019-10-06 21:13:49,0.038s,PASSED
+,,,,,,,
+Test Cases/List and create users/List users,,,,2019-10-06 21:13:49,2019-10-06 21:13:50,0.991s,PASSED
+"listusers = sendRequest(findTestObject(""reqres/List all users""))",,,,2019-10-06 21:13:50,2019-10-06 21:13:50,0.651s,PASSED
+"verifyResponseStatusCode(listusers, 200)",,,,2019-10-06 21:13:50,2019-10-06 21:13:50,0.013s,PASSED

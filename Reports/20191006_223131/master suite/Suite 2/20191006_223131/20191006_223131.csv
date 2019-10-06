@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite 2,,,,2019-10-06 22:32:00,2019-10-06 22:32:18,17.842s,INCOMPLETE
+,,,,,,,
+Test Cases/Imgur/Imgur with header,,,,2019-10-06 22:32:01,2019-10-06 22:32:14,12.962s,PASSED
+"imgur = sendRequest(findTestObject(""reqres/Imgur with http header""))",,,,2019-10-06 22:32:03,2019-10-06 22:32:14,11.076s,PASSED
+"verifyResponseStatusCode(imgur, 200)",,,,2019-10-06 22:32:14,2019-10-06 22:32:14,0.026s,PASSED
+"println(""TEST PASSED"")",,,,2019-10-06 22:32:14,2019-10-06 22:32:14,0.010s,PASSED
+,,,,,,,
+Test Cases/List and create users/Create Users,,,,2019-10-06 22:32:14,2019-10-06 22:32:17,2.338s,PASSED
+"createuser = sendRequest(findTestObject(""reqres/Create new User""))",,,,2019-10-06 22:32:15,2019-10-06 22:32:16,1.532s,PASSED
+"verifyResponseStatusCode(createuser, 201)",,,,2019-10-06 22:32:16,2019-10-06 22:32:17,0.006s,PASSED
+,,,,,,,
+Test Cases/List and create users/List users,,,,2019-10-06 22:32:17,2019-10-06 22:32:18,1.151s,PASSED
+"listusers = sendRequest(findTestObject(""reqres/List all users""))",,,,2019-10-06 22:32:17,2019-10-06 22:32:18,0.589s,PASSED
+"verifyResponseStatusCode(listusers, 200)",,,,2019-10-06 22:32:18,2019-10-06 22:32:18,0.004s,PASSED
